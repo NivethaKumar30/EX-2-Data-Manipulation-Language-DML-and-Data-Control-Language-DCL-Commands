@@ -1,5 +1,6 @@
 
 EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands
+
 AIM :
 To create a database and execute DDL queries using SQL.
 
