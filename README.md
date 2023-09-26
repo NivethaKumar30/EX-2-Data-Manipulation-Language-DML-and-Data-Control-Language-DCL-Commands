@@ -27,6 +27,8 @@ insert into employee1 values('pavi',18,'AI&DS');
 
 OUTPUT :
 
+![image](https://github.com/NivethaKumar30/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119559844/c56a4888-1c97-4c15-92eb-58085d7ba9e6)
+
 
 Query :
 UPDATE: It is used to update existing data within a table.
@@ -35,6 +37,8 @@ SQL QUERY :
 UPDATE employee1 SET name='mercy' WHERE age=18;
 
 OUTPUT :
+
+![image](https://github.com/NivethaKumar30/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119559844/242ec31f-575e-49ad-a430-c314c5517cc0)
 
 
 Query :
@@ -45,6 +49,11 @@ DELETE FROM employee1 WHERE name='mercy';
 
 OUTPUT:
 
+![image](https://github.com/NivethaKumar30/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119559844/05beedb0-8704-4a04-94a1-388af32f4dfa)
+
+RESULT :
+
+Thus the all the queries got the output and statifies the given question.
 
 RESULT :
 Thus the all the queries got the output and statifies the given question.
