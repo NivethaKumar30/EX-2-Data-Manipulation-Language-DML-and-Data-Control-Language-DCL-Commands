@@ -66,7 +66,7 @@ OUTPUT:
 ![image](https://github.com/NivethaKumar30/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119559844/3ca81769-bb9a-4783-89fe-f847ba736c43)
 
 
-Q5) List the names of Clerks from emp table.
+Q4) List the names of Clerks from emp table.
 QUERY:
 ```
 select ename from managers where designation='clerk';
@@ -76,7 +76,7 @@ OUTPUT:
 ![image](https://github.com/NivethaKumar30/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119559844/a84e6ca8-621b-4a86-b1d7-6d59700e771e)
 
 
-Q6) List the names of employee who are not Managers.
+Q5) List the names of employee who are not Managers.
 
 QUERY:
 ```
@@ -87,7 +87,7 @@ OUTPUT:
 ![image](https://github.com/NivethaKumar30/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119559844/1ab4ad00-bfd8-46c2-89e1-0af5a305ae57)
 
 
-Q7) List the names of employees not eligible for commission.
+Q6) List the names of employees not eligible for commission.
 
 QUERY:
 ```
@@ -98,7 +98,7 @@ OUTPUT:
 ![image](https://github.com/NivethaKumar30/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119559844/e62e919e-0984-4cd1-8fe5-a6f88b6b9c2d)
 
 
-Q8) List employees whose name either start or end with ‘s’.
+Q7) List employees whose name either start or end with ‘s’.
 
 QUERY:
 ```
@@ -109,7 +109,7 @@ OUTPUT:
 ![image](https://github.com/NivethaKumar30/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119559844/75970050-12d3-48e2-824f-108e97097ccc)
 
 
-Q9) Sort emp table in ascending order by hire-date and list ename, job, deptno and hire-date.
+Q8) Sort emp table in ascending order by hire-date and list ename, job, deptno and hire-date.
 
 QUERY:
 ```
@@ -120,7 +120,7 @@ OUTPUT:
 ![image](https://github.com/NivethaKumar30/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119559844/91108c57-d16f-4bdb-94f0-882e862bbddb)
 
 
-Q10) List the Details of Employees who have joined before 30 Sept 81.
+Q9) List the Details of Employees who have joined before 30 Sept 81.
 
 QUERY:
 ```
@@ -131,7 +131,7 @@ OUTPUT:
 ![image](https://github.com/NivethaKumar30/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119559844/f4021c4f-d994-4935-9ea8-80d7b416c078)
 
 
-Q11) List ename, deptno and sal after sorting emp table in ascending order by deptno and then descending order by sal.
+Q10) List ename, deptno and sal after sorting emp table in ascending order by deptno and then descending order by sal.
 
 QUERY:
 ```
@@ -142,7 +142,7 @@ OUTPUT:
 ![image](https://github.com/NivethaKumar30/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119559844/c71046cd-3cdc-40b3-b900-d9a7409980e3)
 
 
-Q12) List the names of employees not belonging to dept no 30,40 & 10
+Q11) List the names of employees not belonging to dept no 30,40 & 10
 
 QUERY:
 ```
@@ -153,7 +153,7 @@ OUTPUT:
 ![image](https://github.com/NivethaKumar30/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119559844/e0018862-8dd0-41f6-b01b-da7554017000)
 
 
-Q13) Find number of rows in the table EMP
+Q12) Find number of rows in the table EMP
 
 QUERY:
 ```
@@ -164,7 +164,7 @@ OUTPUT:
 ![image](https://github.com/NivethaKumar30/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119559844/d1f125d1-b7b9-4cbc-87b9-08e0c051750f)
 
 
-Q14) Find maximum, minimum and average salary in EMP table.
+Q13) Find maximum, minimum and average salary in EMP table.
 QUERY:
 ```
 select MAX(salary) as maximumsal,MIN(salary) as minimumsal,AVG(salary)
@@ -174,7 +174,7 @@ OUTPUT:
 ![image](https://github.com/NivethaKumar30/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119559844/06eeca65-a626-49c6-aa6c-9af6fd47bec6)
 
 
-Q15) List the jobs and number of employees in each job. The result should be in the descending order of the number of employees.
+Q14) List the jobs and number of employees in each job. The result should be in the descending order of the number of employees.
 
 QUERY:
 ```
