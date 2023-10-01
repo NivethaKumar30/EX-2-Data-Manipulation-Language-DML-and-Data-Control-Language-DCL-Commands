@@ -27,7 +27,9 @@ insert into managers values(7934,'Aadhi',3500,300,42000,'1-May-82','manager',30,
 insert into managers values(7788,'Vikash',4000,0,48000,'12-Aug-82','clerk',50,'Bond');
 ```
 Output:
-Creating and inserting values into table
+
+![image](https://github.com/NivethaKumar30/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119559844/ddbf4ecf-4813-4c85-850f-519a94d53d33)
+
 
 Q1) Update all the records of manager table by increasing 10% of their salary as bonus.
 QUERY:
@@ -35,15 +37,20 @@ QUERY:
 update managers set salary=salary+(salary*10/100);
 ```
 OUTPUT:
-Updation
+
+![image](https://github.com/NivethaKumar30/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119559844/5f0eed65-1762-4085-85c9-8da68b9f1980)
+
 
 Q2) Delete the records from manager table where the salary less than 2750.
+
 QUERY:
 ```
 delete managers where salary<2750;
 ```
 OUTPUT:
-Deletion
+
+![image](https://github.com/NivethaKumar30/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119559844/5de83111-6ef4-448e-a45f-e832859674c3)
+
 
 Q3) Display each name of the employee as “Name” and annual salary as “Annual Salary” (Note: Salary in emp table is the monthly salary)
 QUERY:
@@ -55,7 +62,9 @@ FROM
 managers;
 ```
 OUTPUT:
-Updation
+
+![image](https://github.com/NivethaKumar30/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119559844/3ca81769-bb9a-4783-89fe-f847ba736c43)
+
 
 Q5) List the names of Clerks from emp table.
 QUERY:
@@ -63,70 +72,97 @@ QUERY:
 select ename from managers where designation='clerk';
 ```
 OUTPUT:
-Listing
+
+![image](https://github.com/NivethaKumar30/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119559844/a84e6ca8-621b-4a86-b1d7-6d59700e771e)
+
 
 Q6) List the names of employee who are not Managers.
+
 QUERY:
 ```
 select ename from managers where designation!='manager';
 ```
 OUTPUT:
-Listing
+
+![image](https://github.com/NivethaKumar30/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119559844/1ab4ad00-bfd8-46c2-89e1-0af5a305ae57)
+
 
 Q7) List the names of employees not eligible for commission.
+
 QUERY:
 ```
 select ename from managers where commission=0;
 ```
 OUTPUT:
-Listing
+
+![image](https://github.com/NivethaKumar30/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119559844/e62e919e-0984-4cd1-8fe5-a6f88b6b9c2d)
+
 
 Q8) List employees whose name either start or end with ‘s’.
+
 QUERY:
 ```
 select ename from managers where ename LIKE 'S%' OR ename LIKE '%S';
 ```
 OUTPUT:
-Listing
+
+![image](https://github.com/NivethaKumar30/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119559844/75970050-12d3-48e2-824f-108e97097ccc)
+
 
 Q9) Sort emp table in ascending order by hire-date and list ename, job, deptno and hire-date.
+
 QUERY:
 ```
 select ename,designation,deptno,hiredate from managers order by hiredate ASC;
 ```
 OUTPUT:
-Sorting
+
+![image](https://github.com/NivethaKumar30/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119559844/91108c57-d16f-4bdb-94f0-882e862bbddb)
+
 
 Q10) List the Details of Employees who have joined before 30 Sept 81.
+
 QUERY:
 ```
 select * from managers where hiredate < '30 SEP 81';
 ```
 OUTPUT:
-Listing
+
+![image](https://github.com/NivethaKumar30/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119559844/f4021c4f-d994-4935-9ea8-80d7b416c078)
+
 
 Q11) List ename, deptno and sal after sorting emp table in ascending order by deptno and then descending order by sal.
+
 QUERY:
 ```
 select ename,deptno,salary from managers ORDER BY deptno ASC,salary desc;
 ```
 OUTPUT:
-Listing
+
+![image](https://github.com/NivethaKumar30/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119559844/c71046cd-3cdc-40b3-b900-d9a7409980e3)
+
 
 Q12) List the names of employees not belonging to dept no 30,40 & 10
+
 QUERY:
+```
 select ename from managers where deptno NOT IN (30,40,10);
+```
 OUTPUT:
-Listing
+
+![image](https://github.com/NivethaKumar30/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119559844/e0018862-8dd0-41f6-b01b-da7554017000)
+
 
 Q13) Find number of rows in the table EMP
+
 QUERY:
 ```
 select count(*) as rownumber from managers;
 ```
 OUTPUT:
 
-Count of rows
+![image](https://github.com/NivethaKumar30/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119559844/d1f125d1-b7b9-4cbc-87b9-08e0c051750f)
+
 
 Q14) Find maximum, minimum and average salary in EMP table.
 QUERY:
@@ -135,9 +171,15 @@ select MAX(salary) as maximumsal,MIN(salary) as minimumsal,AVG(salary)
 as averagesal from managers;
 ```
 OUTPUT:
-Finding
+![image](https://github.com/NivethaKumar30/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119559844/06eeca65-a626-49c6-aa6c-9af6fd47bec6)
+
 
 Q15) List the jobs and number of employees in each job. The result should be in the descending order of the number of employees.
+
 QUERY:
+```
 select designation,count(*) as number_employee from managers GROUP BY designation ORDER BY number_employee DESC;
+```
 OUTPUT:
+
+![image](https://github.com/NivethaKumar30/EX-2-Data-Manipulation-Language-DML-and-Data-Control-Language-DCL-Commands/assets/119559844/777ba178-8ba2-4d66-970d-7f7eeae4e5fd)
